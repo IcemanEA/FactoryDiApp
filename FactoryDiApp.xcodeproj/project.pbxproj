@@ -14,6 +14,17 @@
 		48BE2F1529523A6400E5B2CD /* FactoryDiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BE2F1429523A6400E5B2CD /* FactoryDiAppTests.swift */; };
 		48BE2F1F29523A6400E5B2CD /* FactoryDiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BE2F1E29523A6400E5B2CD /* FactoryDiAppUITests.swift */; };
 		48BE2F2129523A6400E5B2CD /* FactoryDiAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BE2F2029523A6400E5B2CD /* FactoryDiAppUITestsLaunchTests.swift */; };
+		48BE2F3229523BC500E5B2CD /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = 48BE2F3129523BC500E5B2CD /* GRDB */; };
+		48BE2F3429523BE700E5B2CD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BE2F3329523BE700E5B2CD /* NetworkManager.swift */; };
+		48BE2F3629523C0400E5B2CD /* NetworkErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BE2F3529523C0400E5B2CD /* NetworkErrors.swift */; };
+		48BE2F3829523C6000E5B2CD /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BE2F3729523C6000E5B2CD /* DatabaseManager.swift */; };
+		48BE2F3A29523C6E00E5B2CD /* DatabaseManager+Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BE2F3929523C6E00E5B2CD /* DatabaseManager+Persistence.swift */; };
+		48BE2F3C29523C7500E5B2CD /* DatabaseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BE2F3B29523C7500E5B2CD /* DatabaseError.swift */; };
+		48BE2F3F2952E71D00E5B2CD /* ApplicationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BE2F3E2952E71D00E5B2CD /* ApplicationFactory.swift */; };
+		48BE2F412952F7B600E5B2CD /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BE2F402952F7B600E5B2CD /* LoginViewModel.swift */; };
+		48BE2F432952F9F700E5B2CD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BE2F422952F9F700E5B2CD /* LoginView.swift */; };
+		48BE2F462953256B00E5B2CD /* FakeLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BE2F452953256B00E5B2CD /* FakeLoginViewModel.swift */; };
+		48BE2F48295339BC00E5B2CD /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BE2F47295339BB00E5B2CD /* TabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,16 @@
 		48BE2F1A29523A6400E5B2CD /* FactoryDiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FactoryDiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48BE2F1E29523A6400E5B2CD /* FactoryDiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryDiAppUITests.swift; sourceTree = "<group>"; };
 		48BE2F2029523A6400E5B2CD /* FactoryDiAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryDiAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		48BE2F3329523BE700E5B2CD /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		48BE2F3529523C0400E5B2CD /* NetworkErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkErrors.swift; sourceTree = "<group>"; };
+		48BE2F3729523C6000E5B2CD /* DatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		48BE2F3929523C6E00E5B2CD /* DatabaseManager+Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DatabaseManager+Persistence.swift"; sourceTree = "<group>"; };
+		48BE2F3B29523C7500E5B2CD /* DatabaseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseError.swift; sourceTree = "<group>"; };
+		48BE2F3E2952E71D00E5B2CD /* ApplicationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationFactory.swift; sourceTree = "<group>"; };
+		48BE2F402952F7B600E5B2CD /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		48BE2F422952F9F700E5B2CD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		48BE2F452953256B00E5B2CD /* FakeLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeLoginViewModel.swift; sourceTree = "<group>"; };
+		48BE2F47295339BB00E5B2CD /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48BE2F3229523BC500E5B2CD /* GRDB in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +116,13 @@
 		48BE2F0229523A6200E5B2CD /* FactoryDiApp */ = {
 			isa = PBXGroup;
 			children = (
+				48BE2F3E2952E71D00E5B2CD /* ApplicationFactory.swift */,
 				48BE2F0329523A6200E5B2CD /* FactoryDiAppApp.swift */,
-				48BE2F0529523A6200E5B2CD /* ContentView.swift */,
+				48BE2F3D29523D5700E5B2CD /* Views */,
+				48BE2F2F29523B0A00E5B2CD /* ViewModels */,
+				48BE2F2E29523B0400E5B2CD /* Models */,
+				48BE2F2D29523AEC00E5B2CD /* Services */,
+				48BE2F442953254800E5B2CD /* Fake */,
 				48BE2F0729523A6400E5B2CD /* Assets.xcassets */,
 				48BE2F0929523A6400E5B2CD /* Preview Content */,
 			);
@@ -127,6 +154,51 @@
 			path = FactoryDiAppUITests;
 			sourceTree = "<group>";
 		};
+		48BE2F2D29523AEC00E5B2CD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				48BE2F3729523C6000E5B2CD /* DatabaseManager.swift */,
+				48BE2F3929523C6E00E5B2CD /* DatabaseManager+Persistence.swift */,
+				48BE2F3B29523C7500E5B2CD /* DatabaseError.swift */,
+				48BE2F3329523BE700E5B2CD /* NetworkManager.swift */,
+				48BE2F3529523C0400E5B2CD /* NetworkErrors.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		48BE2F2E29523B0400E5B2CD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		48BE2F2F29523B0A00E5B2CD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				48BE2F402952F7B600E5B2CD /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		48BE2F3D29523D5700E5B2CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				48BE2F0529523A6200E5B2CD /* ContentView.swift */,
+				48BE2F422952F9F700E5B2CD /* LoginView.swift */,
+				48BE2F47295339BB00E5B2CD /* TabView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		48BE2F442953254800E5B2CD /* Fake */ = {
+			isa = PBXGroup;
+			children = (
+				48BE2F452953256B00E5B2CD /* FakeLoginViewModel.swift */,
+			);
+			path = Fake;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +215,9 @@
 			dependencies = (
 			);
 			name = FactoryDiApp;
+			packageProductDependencies = (
+				48BE2F3129523BC500E5B2CD /* GRDB */,
+			);
 			productName = FactoryDiApp;
 			productReference = 48BE2F0029523A6200E5B2CD /* FactoryDiApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +290,9 @@
 				Base,
 			);
 			mainGroup = 48BE2EF729523A6200E5B2CD;
+			packageReferences = (
+				48BE2F3029523BC500E5B2CD /* XCRemoteSwiftPackageReference "GRDB.swift" */,
+			);
 			productRefGroup = 48BE2F0129523A6200E5B2CD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +335,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48BE2F3C29523C7500E5B2CD /* DatabaseError.swift in Sources */,
+				48BE2F3429523BE700E5B2CD /* NetworkManager.swift in Sources */,
+				48BE2F3629523C0400E5B2CD /* NetworkErrors.swift in Sources */,
+				48BE2F462953256B00E5B2CD /* FakeLoginViewModel.swift in Sources */,
+				48BE2F3829523C6000E5B2CD /* DatabaseManager.swift in Sources */,
 				48BE2F0629523A6200E5B2CD /* ContentView.swift in Sources */,
+				48BE2F3A29523C6E00E5B2CD /* DatabaseManager+Persistence.swift in Sources */,
 				48BE2F0429523A6200E5B2CD /* FactoryDiAppApp.swift in Sources */,
+				48BE2F3F2952E71D00E5B2CD /* ApplicationFactory.swift in Sources */,
+				48BE2F432952F9F700E5B2CD /* LoginView.swift in Sources */,
+				48BE2F48295339BC00E5B2CD /* TabView.swift in Sources */,
+				48BE2F412952F7B600E5B2CD /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +513,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -432,9 +521,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = LedkovTeam.FactoryDiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -454,6 +546,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,9 +554,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = LedkovTeam.FactoryDiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -583,6 +679,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		48BE2F3029523BC500E5B2CD /* XCRemoteSwiftPackageReference "GRDB.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/GRDB.swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		48BE2F3129523BC500E5B2CD /* GRDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48BE2F3029523BC500E5B2CD /* XCRemoteSwiftPackageReference "GRDB.swift" */;
+			productName = GRDB;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 48BE2EF829523A6200E5B2CD /* Project object */;
 }
